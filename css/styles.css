@@ -3,7 +3,7 @@
 
 @font-face { /* pd2 body font */
     font-family: 'DINEngschrift';
-    src: url('../fonts/DINEngschrift.ttf') format('truetype');
+    src: url('../fonts/DINEngschrift Regular.ttf') format('truetype');
 }
 
 @font-face { /*pd2 heading font */
@@ -174,6 +174,12 @@ li a {
 
 li a:hover {
     background-color: #111;
+}
+
+.active {
+    pointer-events: none; /* Disables clicking */
+    cursor: default; /* Changes cursor to indicate non-clickable */
+    color: #0085a1; /* Optional: changes color to indicate it's the current page */
 }
 
 /* Responsive Design */
