@@ -204,3 +204,103 @@ li a:hover {
     margin-right: auto;
     width: 50%;
 }
+
+/* Section Container for the Perk Deck */
+.perk-deck-section {
+    padding: 40px 20px;
+    background-color: #121212; /* Slightly darker background for the whole section */
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 80%; /* Restrict the width to keep layout neat */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7); /* Shadow for section depth */
+}
+
+/* Perk Deck Title */
+.perk-deck-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.perk-deck-title h2 {
+    color: #0085a1; /* Cyan color matching the theme */
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #0085a1; /* Accent border for title */
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+/* Perk Deck Container and Cards */
+.perk-deck-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #1b1b1b; /* Dark background to fit Payday 2 aesthetic */
+    border: 2px solid #0085a1; /* Cyan border to match theme */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7); /* Shadow for depth */
+    gap: 45px; /* Spacing between cards */
+}
+
+.perk-card {
+    background-color: #222; /* Dark card background */
+    border: 1px solid #0085a1; /* Cyan border for accent */
+    border-radius: 8px;
+    text-align: left;
+    padding: 10px;
+    max-width: 200px; /* Adjust card width as needed */
+    min-width: 200px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.perk-card h3 {
+    color: #e5e5e5;
+    font-size: 1.1em;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+.perk-content {
+    display: flex; /* Flexbox for image and text alignment */
+    gap: 10px; /* Spacing between image and text */
+}
+
+.perk-card img {
+    width: 100%; /* Fixed width for image */
+    height: 100%;
+    border-radius: 6px;
+}
+
+.perk-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.perk-text p {
+    color: #b0b0b0;
+    font-size: 0.9em;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.perk-card:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8); /* Enhanced shadow on hover */
+}
+
+.perk-content-container {
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    background-color: #1b1b1b; /* Dark background to fit Payday 2 aesthetic */
+    border: 2px solid #0085a1; /* Cyan border to match theme */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7); /* Shadow for depth */
+    gap: 45px; /* Spacing between cards */
+}
