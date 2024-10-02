@@ -135,7 +135,7 @@ footer {
     text-align: center;
     color: #e5e5e5;
     border-top: 2px solid #0085a1;
-    position: fixed;
+    position: static;
     bottom: 0;
     width: 100%;
 }
@@ -303,4 +303,93 @@ li a:hover {
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.7); /* Shadow for depth */
     gap: 45px; /* Spacing between cards */
+}
+
+.skills-section-title {
+    text-align: center;
+}
+
+.skills-section-title h1{
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.skills-section-title h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.skill-container {
+    display: flex;
+    border: 1px solid #444;
+    background-color: #222;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.skill-image {
+    width: 100%;
+    background-color: #333;
+    height: 150px;
+}
+
+.skill-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.skill-details {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.skill-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #50c878;
+}
+
+.skill-description {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.skill-description em {
+    font-weight: bold;
+    font-style: normal;
+    color: gold;
+}
+
+.skill-rating {
+    display: flex;
+    align-items: center;
+}
+
+.rating-rank {
+    color: gold;
+    margin-left: 10px;
+}
+
+/* Payday 2 Theme Color */
+.payday-blue {
+    color: #50c878;
+}
+
+@media (max-width: 768px) {
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
 }
