@@ -9,7 +9,7 @@
     </head>
 <body>
     <!--- HEADER/NAVBAR******************* --->
-    <a href="index.html"><img src="media/PAYDAY2_LOGO_WHITE.png" class = "center" alt="Payday 2"></a>
+    <a href="index.html"><img src="media/PAYDAY2_LOGO_WHITE.png" class = "center" alt="Payday 2" id="top"></a>
     <header>
         Skills Guide
     </header>
@@ -22,10 +22,12 @@
             <li><a href="external_resources.html">Other resources</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="about_project.html"> About Project</a></li>
+            <li><a href="References.html"> References</a></li>
         </ul>
     </nav>
     <!--- HEADER/NAVBAR******************* --->
     <main>
+
         <h1>Perk Decks</h1>
     <p>
         Perk decks are unlockable, selectable "decks" similar to skills that are integral to Payday 2 builds. There are 23 perk decks in Payday 2, all with different purposes, and some more effective than others.
@@ -33,13 +35,43 @@
         <p>
             Each deck contains 9 cards, 4 which are common between all perk decks, and 5 that are unique to each deck.
         </p>
+        <div class="perk-nav">
+            <h1>Navigation</h1>
+            <ul>
+                <li><a href="#common">Common Cards</a></li>
+                <li><a href="#crew chief">Crew Chief</a></li>
+                <li><a href="#muscle">Muscle</a></li>
+                <li><a href="#armorer">Armorer</a></li>
+                <li><a href="#crook">Crook</a></li>
+                <li><a href="#hitman">Hitman</a></li>
+                <li><a href="#burglar">Burglar</a></li>
+                <li><a href="#inf">Infiltrator</a></li>
+                <li><a href="#soc">Sociopath</a></li>
+                <li><a href="#gambler">Gambler</a></li>
+                <li><a href="#grinder">Grinder</a></li>
+                <li><a href="#yakuza">Yakuza</a></li>
+                <li><a href="#expres">Ex-President</a></li>
+                <li><a href="#maniac">Maniac</a></li>
+                <li><a href="#anarchist">Anarchist</a></li>
+                <li><a href="#biker">Biker</a></li>
+                <li><a href="#kingpin">Kingpin</a></li>
+                <li><a href="#sicario">Sicario</a></li>
+                <li><a href="#stoic">Stoic</a></li>
+                <li><a href="#tt">Tag Team</a></li>
+                <li><a href="#hacker">Hacker</a></li>
+                <li><a href="#leech">Leech</a></li>
+                <li><a href="#copycat">Copycat</a></li>
+
+            </ul>
+        </div>
         <p>The 4 cards common between all decks provide the following benefits:</p>
         <section class="perk-deck-section">
-            <section class="perk-deck-title">
+            <section class="perk-deck-title" id="common">
                 <h2>Common Cards</h2>
             </section>
 
             <section class="perk-deck-container"> <!---common cards-->
+                <p>In-Game Descriptions:</p>
                 <div class="perk-card">
                     <h3>Helmet Popping</h3>
                     <div class="perk-content">
@@ -94,7 +126,7 @@
 
 
         <section class="perk-deck-section"> <!---cc-->
-            <section class="perk-deck-title">
+            <section class="perk-deck-title"  id="crew chief">
                 <h2>Crew Chief</h2>
             </section>
 
@@ -162,10 +194,11 @@
                 </p>
                <h2>Overall Rating: Good</h2>
             </section>
+            <p><a href="#top">Back to top</a> </p>
         </section>
 
         <section class="perk-deck-section"> <!---muscle-->
-            <section class="perk-deck-title">
+            <section class="perk-deck-title"  id="muscle">
                 <h2>Muscle</h2>
             </section>
 
@@ -234,11 +267,12 @@
                 </p>
                 <h2>Overall Rating: Good</h2>
             </section>
+            <p><a href="#top">Back to top</a> </p>
         </section>
 
 
         <section class="perk-deck-section"> <!---armorer-->
-            <section class="perk-deck-title">
+            <section class="perk-deck-title"  id="armorer">
                 <h2>Armorer</h2>
             </section>
 
@@ -307,11 +341,12 @@
                 </p>
                 <h2>Overall Rating: Strong</h2>
             </section>
+            <p><a href="#top">Back to top</a> </p>
         </section>
 
 
         <section class="perk-deck-section"> <!---rogue-->
-            <section class="perk-deck-title">
+            <section class="perk-deck-title" id="rogue">
                 <h2>Rogue</h2>
             </section>
 
@@ -373,15 +408,17 @@
             <section class="perk-content-container">
                 <p>
                     Continuing the theme of simple perk decks, Rogue is the simplest dodge perk deck in the game. This deck gives you a flat 45% dodge chance, along with making you less likely to be targeted,
-                    giving your weapons a chance to pierce enemy body armor (not shields), and nearly doubling weapon swap speed.
+                    giving your weapons a chance to pierce enemy body armor (not shields), and nearly doubling weapon swap speed. While this deck is fine for most difficulties, it's outclassed by other dodge-based decks like Hacker
+                    and Copycat, which offer similar dodge numbers while having far more benefits.
                 </p>
                 <h2>Overall Rating: Good</h2>
             </section>
+            <p><a href="#top">Back to top</a> </p>
         </section>
 
 
         <section class="perk-deck-section"> <!---crook-->
-            <section class="perk-deck-title">
+            <section class="perk-deck-title" id="crook">
                 <h2>Crook</h2>
             </section>
 
@@ -444,15 +481,18 @@
             </section>
             <section class="perk-content-container">
                 <p>
-                    test
+                    Crook is an interesting perk deck that theoretically combines the consistency of armor with the random survivability of dodge, boosting your dodge by 40% and your armor by 65% while wearing a ballistic vest. Unfortunately, Payday 2 is a game about
+                    specialization, and combining both dodge and armor ends up giving you the worst of both worlds instead of the best, with the 40% dodge chance being penalized by the armor you choose,
+                    and low base armor values from being restricted to the Heavy Ballistic Vest or weaker.
                 </p>
                 <h2>Overall Rating: Weak</h2>
             </section>
+            <p><a href="#top">Back to top</a> </p>
         </section>
 
 
         <section class="perk-deck-section"> <!---Hitman-->
-            <section class="perk-deck-title">
+            <section class="perk-deck-title" id="hitman">
                 <h2>Hitman</h2>
             </section>
 
@@ -515,15 +555,18 @@
             </section>
             <section class="perk-content-container">
                 <p>
-                    test
+                    Hitman is another interesting perk deck that changes armor recovery to be a flat 1.5 seconds instead of being forced to wait by the rules of Armor Suppression. It also improves akimbo weapons stability and ammo capacity.
+                    The flat 1.5 second armor regeneration can be fun since you can regenerate armor while being shot at,
+                    but since it provides no boost to armor value and has no added survivability otherwise, this deck ends up feeling a little too frail in practice.
                 </p>
                 <h2>Overall Rating: Weak</h2>
             </section>
+            <p><a href="#top">Back to top</a> </p>
         </section>
 
 
         <section class="perk-deck-section"> <!---Burglar-->
-            <section class="perk-deck-title">
+            <section class="perk-deck-title" id="burglar">
                 <h2>Burglar</h2>
             </section>
 
@@ -589,11 +632,12 @@
                 </p>
                 <h2>Overall Rating: Niche</h2>
             </section>
+            <p><a href="#top">Back to top</a> </p>
         </section>
 
 
         <section class="perk-deck-section"> <!---inf-->
-            <section class="perk-deck-title">
+            <section class="perk-deck-title" id="inf">
                 <h2>Infiltrator</h2>
             </section>
 
@@ -658,10 +702,11 @@
                 </p>
                 <h2>Overall Rating: Weak</h2>
             </section>
+            <p><a href="#top">Back to top</a> </p>
         </section>
 
         <section class="perk-deck-section"> <!---soc-->
-            <section class="perk-deck-title">
+            <section class="perk-deck-title" id="soc">
                 <h2>Sociopath</h2>
             </section>
 
@@ -732,10 +777,11 @@
                 </p>
                 <h2>Overall Rating: Niche</h2>
             </section>
+            <p><a href="#top">Back to top</a> </p>
         </section>
 
         <section class="perk-deck-section"> <!---Gambler-->
-            <section class="perk-deck-title">
+            <section class="perk-deck-title" id="gambler">
                 <h2>Gambler</h2>
             </section>
 
@@ -804,11 +850,12 @@
                 </p>
                 <h2>Overall Rating: Weak</h2>
             </section>
+            <p><a href="#top">Back to top</a> </p>
         </section>
 
 
         <section class="perk-deck-section"> <!---grinder-->
-            <section class="perk-deck-title">
+            <section class="perk-deck-title" id="grinder">
                 <h2>Grinder</h2>
             </section>
 
@@ -877,11 +924,12 @@
                 </p>
                 <h2>Overall Rating: Good</h2>
             </section>
+            <p><a href="#top">Back to top</a> </p>
         </section>
 
 
         <section class="perk-deck-section"> <!---Yakuza-->
-            <section class="perk-deck-title">
+            <section class="perk-deck-title" id="yakuza">
                 <h2>Yakuza</h2>
             </section>
 
@@ -945,10 +993,11 @@
                 </p>
                 <h2>Overall Rating: Weak</h2>
             </section>
+            <p><a href="#top">Back to top</a> </p>
         </section>
 
         <section class="perk-deck-section"> <!---expres-->
-            <section class="perk-deck-title">
+            <section class="perk-deck-title" id="expres">
                 <h2>Ex-President</h2>
             </section>
 
@@ -1019,10 +1068,11 @@
                 </p>
                 <h2>Overall Rating: Niche</h2>
             </section>
+            <p><a href="#top">Back to top</a> </p>
         </section>
 
         <section class="perk-deck-section"> <!---maniac-->
-            <section class="perk-deck-title">
+            <section class="perk-deck-title" id="maniac">
                 <h2>Maniac</h2>
             </section>
 
@@ -1089,10 +1139,11 @@
                 </p>
                 <h2>Overall Rating: Weak</h2>
             </section>
+            <p><a href="#top">Back to top</a> </p>
         </section>
 
         <section class="perk-deck-section"> <!---Anarchist-->
-            <section class="perk-deck-title">
+            <section class="perk-deck-title" id="anarchist">
                 <h2>Anarchist</h2>
             </section>
 
@@ -1158,9 +1209,11 @@
                 </p>
                 <h2>Overall Rating: Strong</h2>
             </section>
+            <p><a href="#top">Back to top</a> </p>
         </section>
+
         <section class="perk-deck-section"> <!---biker-->
-            <section class="perk-deck-title">
+            <section class="perk-deck-title" id="biker">
                 <h2>Biker</h2>
             </section>
 
@@ -1224,10 +1277,11 @@
                 </p>
                 <h2>Overall Rating: Weak</h2>
             </section>
+            <p><a href="#top">Back to top</a> </p>
         </section>
 
         <section class="perk-deck-section"> <!---kingpin-->
-            <section class="perk-deck-title">
+            <section class="perk-deck-title" id="kingpin">
                 <h2>Kingpin</h2>
             </section>
 
@@ -1279,7 +1333,7 @@
                 </div>
 
                 <div class="perk-card">
-                    <h3>RIght to the Top</h3>
+                    <h3>Right to the Top</h3>
                     <div class="perk-content">
                         <img src="media/perks/Right%20to%20the%20Top.png" alt="Card 5" />
                         <div class="perk-text">
@@ -1296,9 +1350,11 @@
                 </p>
                 <h2>Overall Rating: Strong</h2>
             </section>
+            <p><a href="#top">Back to top</a> </p>
         </section>
+
         <section class="perk-deck-section"> <!---sicario-->
-            <section class="perk-deck-title">
+            <section class="perk-deck-title" id="sicario">
                 <h2>Sicario</h2>
             </section>
 
@@ -1364,9 +1420,11 @@
                 </p>
                 <h2>Overall Rating: Good</h2>
             </section>
+            <p><a href="#top">Back to top</a> </p>
         </section>
+
         <section class="perk-deck-section"> <!---stoic-->
-            <section class="perk-deck-title">
+            <section class="perk-deck-title" id="stoic">
                 <h2>Stoic</h2>
             </section>
 
@@ -1432,10 +1490,11 @@
                 </p>
                 <h2>Overall Rating: Strong</h2>
             </section>
+            <p><a href="#top">Back to top</a> </p>
         </section>
 
         <section class="perk-deck-section"> <!---tag team-->
-            <section class="perk-deck-title">
+            <section class="perk-deck-title" id="tt">
                 <h2>Tag Team</h2>
             </section>
 
@@ -1504,9 +1563,11 @@
                 </p>
                 <h2>Overall Rating: Weak?</h2>
             </section>
+            <p><a href="#top">Back to top</a> </p>
         </section>
+
         <section class="perk-deck-section"> <!---hacker-->
-            <section class="perk-deck-title">
+            <section class="perk-deck-title" id="hacker">
                 <h2>Hacker</h2>
             </section>
 
@@ -1574,9 +1635,11 @@
                 </p>
                 <h2>Overall Rating: Strong</h2>
             </section>
+            <p><a href="#top">Back to top</a> </p>
         </section>
+
         <section class="perk-deck-section"> <!---Leech-->
-            <section class="perk-deck-title">
+            <section class="perk-deck-title" id="leech">
                 <h2>Leech</h2>
             </section>
 
@@ -1651,9 +1714,11 @@
                 </p>
                 <h2>Overall Rating: Strong</h2>
             </section>
+            <p><a href="#top">Back to top</a> </p>
         </section>
+
         <section class="perk-deck-section"> <!---Copycat-->
-            <section class="perk-deck-title">
+            <section class="perk-deck-title" id="copycat">
                 <h2>Copycat</h2>
             </section>
 
@@ -1720,6 +1785,7 @@
                 </p>
                 <h2>Overall Rating: Strong</h2>
             </section>
+            <p><a href="#top">Back to top</a> </p>
         </section>
     </main>
 
